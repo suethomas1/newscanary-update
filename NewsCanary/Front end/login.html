@@ -1,0 +1,150 @@
+
+<!doctype html>
+<html>
+	<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- content security for android -->
+		<!-- look here: http://stackoverflow.com/questions/30212306/no-content-security-policy-meta-tag-found-error-in-my-phonegap-application -->
+		<meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; script-src * 'unsafe-inline';">
+		<title>NewsCanary</title>
+		<link href="aboutPageStyle.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+		<script type="text/javascript" src="js/functions.js"></script>
+		<!-- content security for android -->
+		
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
+<script>var __adobewebfontsappname__="dreamweaver"</script><script src="http://use.edgefonts.net/montserrat:n4:default;source-sans-pro:n2:default.js" type="text/javascript"></script>		
+		<script>
+			$(document).ready(function() {
+
+				 $.support.cors = true;
+
+				$("#login").click(function() {
+
+					username = $("[name='username']").val();
+					password = $("[name='password']").val();
+
+					if(username=="") {
+						$("#messages").html("Please enter a username.");
+						return false;
+					}
+
+					if(password=="") {
+						$("#messages").html("Please enter a password.");
+						return false;
+					}
+
+					$.ajax({
+						beforeSend: function() {
+							$("#loading").show();
+						},
+						complete: function() {
+							$("#loading").hide();
+						},
+						type: 'GET',
+						dataType: "jsonp",
+						jsonp: "callback",
+						url: "http://sueria.suethomas67.com/mng_user.php?action=login&l_username=" + username + "&l_password=" + password,
+						success: function(data) {
+
+
+							responseString="";
+
+							$.each(data, function (index, item) {
+							    // Use item in here
+							    responseString = item;
+							});
+
+							if(responseString.indexOf("LOGGEDIN")>-1) {
+
+								//get rest of data after prefix (LOGGEDIN:)
+								//the number is the character position to start from, we cut off the prefix
+								userid = responseString.substring(9);
+
+								location.href="subscriptions.html?userid=" + userid;
+
+							}
+							if(responseString.indexOf("NOTFOUND")>-1) {
+
+								//get rest of data after prefix (NOTFOUND:)
+								//the number is the character position to start from, we cut off the prefix
+								message = responseString.substring(9);
+
+								$("#messages").html(message);
+
+							}
+							if(responseString.indexOf("INVALID")>-1) {
+
+								//get rest of data after prefix (INVALID:)
+								//the number is the character position to start from, we cut off the prefix
+								message = responseString.substring(8);
+
+								$("#messages").html(message);
+
+							}
+						},
+						error: function (jqXHR, textStatus, errorThrown) {
+							if (jqXHR.status == 500) {
+				                $("#messages").html('Internal error: ' + jqXHR.responseText);
+				            } else {
+				                $("#messages").html('Unexpected error.');
+				            }
+						}
+					});
+
+
+
+				});
+
+			});
+		</script>
+</head>
+
+<body>
+<!-- Header content -->
+<header>
+  <div class="profileLogo"> 
+    <!-- Profile logo. Add a img tag in place of <span>. -->
+    <p class="logoPlaceholder"><!-- <img src="logoImage.png" alt="sample logo"> --><span>NewsCanary</span></p>
+  </div>
+  <div class="profilePhoto"> 
+    <!-- Profile photo --> 
+    <img src="images/News-Briefs.png"  alt="news globe"  class="globe"> </div>
+  <!-- Identity details -->
+  <section class="profileHeader">
+    
+    <h5>Please login below</h5>
+    <hr>
+    
+			<form>
+          
+         <div id="messages">
+
+			</div>
+				<form>
+           
+            <p class="reg">
+				<input type="text" name="username" placeholder="Username" style="border:groove"><br />
+  				<input type="password" name="password" placeholder="Password" style="border:groove"><br />
+  				<input type="button" value="Log In" id="login" style="border:groove"></p>
+			</form>
+			
+		  <p class="big1"><a href="register.html">Sign Up</a></p>
+         
+          </form> 
+ 
+         
+
+  </section>
+  
+ </header>
+<footer>
+
+  <hr>
+  <p class="footerDisclaimer">2016  Copyrights - <span>All Rights Reserved</span><a href="index.html">Home</a></p>
+  </footer>
+  <img src="images/loading.gif" id="loading" alt="loading" />
+
+</body>
+</html>

@@ -1,0 +1,1585 @@
+* {
+	padding:0;
+	margin:0;
+}
+/* Media query for Mobile devices*/
+@media only screen and (min-width : 285px) and (max-width : 480px) {
+/* index page */
+.intro {
+	margin-top:250px;
+	color:#006;
+	font-size:36px;
+	margin-left:250px;
+	background-color: #CCC;
+	background:centre;
+	border-radius: 35px;
+	opacity: 0.8;
+	border:groove;
+	width: 1000px;
+	height:100px;
+
+}
+.big2 {
+	font-size:40px;
+	margin:10px;
+	color: #006;
+	margin-top: 120px;
+	background-color: #CCC;
+	background:centre;
+	background-clip:border-box;
+	border:groove;
+	width: 700px;
+	height:200px;
+	margin-left: 600px;
+	border-radius: 35px;
+	opacity: 0.8;
+}
+.globe {
+	float:left;
+	margin-bottom:900px;
+	opacity:0.8;
+}
+.weather {
+	float:right;
+}
+footer1 {
+	width:100%;
+	padding:5px;
+	height:30px;
+	background-color: #ddd;
+	color: #000;
+	font-family: Calibri, Helvetica, Arial, sans-serif;
+	font-size:15px;
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	text-align:center;
+	z-index:1;
+}
+body {
+	margin-bottom:40px;
+	width: 1800px;
+	height:900px;
+}
+header {
+	padding:5px;
+	height:100px;
+	color: #003;
+	font-family: Harrington;
+	font-weight:bold;
+	font-size:60px;
+	position:fixed;
+	text-align:center;
+	background-color: #CCC;
+	width: 1100px;
+	margin-left: 380px;
+	margin-top: 50px;
+	border-radius: 25px;
+	opacity: 0.6;
+}
+footer {
+	width:100%;
+	padding:5px;
+	height:20px;
+	background-color: #ddd;
+	color: #000;
+	font-family: Calibri, Helvetica, Arial, sans-serif;
+	font-size:15px;
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	text-align:center;
+	z-index:1;
+}
+main {
+	width:100%;
+	padding:50px;
+	font-family: Pericles;
+	text-align:center;
+	font-size: 14px;
+	height: 1000px;
+	background-image:url(images/Abstract%20Street%20At%20Stylised%20Favourite%20Desktop%20Backgrounds.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+/* end of index page */
+/* register page */
+body {
+	margin-bottom:40px;
+	width: 1800px;
+	height:900px;
+}
+header {
+	padding:5px;
+	height:100px;
+	color: #003;
+	font-family: Harrington;
+	font-weight:bold;
+	font-size:60px;
+	position:fixed;
+	text-align:center;
+	background-color: #CCC;
+	width: 1100px;
+	margin-left: 380px;
+	margin-top: 50px;
+	border-radius: 25px;
+	opacity: 0.6;
+}
+footer {
+	width:100%;
+	padding:5px;
+	height:20px;
+	background-color: #ddd;
+	color: #000;
+	font-family: Calibri, Helvetica, Arial, sans-serif;
+	font-size:15px;
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	text-align:center;
+	z-index:1;
+}
+main {
+	width:100%;
+	padding:50px;
+	font-family: Pericles;
+	text-align:center;
+	font-size: 14px;
+	height: 1000px;
+	background-image:url(images/Abstract%20Street%20At%20Stylised%20Favourite%20Desktop%20Backgrounds.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;	
+}
+.big1 {
+	font-size:40px;
+	margin:10px;
+	color: #006;
+	margin-top: 5px;
+	background-color: #CCC;
+	background:centre;
+	border:groove;
+	width: 550px;
+	margin-left: 600px;
+	border-radius: 35px;
+	opacity: 0.9;
+}
+.reg1 {
+	background-color:#CCC;
+	border:double;
+	border-radius: 25px;
+	width: 500px;
+	margin-left:630px;
+	margin-top: 50px;
+	height:500px;
+	opacity: 0.9;
+}
+.regis {
+	background-color:#CCC;
+	font-family:"Times New Roman", Times, serif;
+	font-size: 32px;
+	width:500px;
+	height:40px;
+	border-radius: 35px;
+	opacity: 0.9;
+	margin-left: 625px;
+	color: #006;
+	margin-top:50px;
+}
+.form {
+	height: 100px;
+    margin-top: 150px;
+}
+#messages {
+	float:right;
+	margin-top:150px;
+	margin-left:100px;
+	font-family:Harrington;
+	font-style:oblique;
+	font-weight:bold;
+	font-size:54px;
+	text-emphasis:circle;
+	color:#CFF;
+	width: 400px;
+	height:100px;	
+}
+
+#loading {
+	display:none;
+	position:fixed;
+	top:50%;
+	left:50%;
+	margin-top:-200px;
+	margin-left: 125px;
+}
+/* end of register page */
+/*  login page */
+body {
+	margin-bottom:40px;
+	width: 1800px;
+	height:900px;
+}
+header {
+	padding:5px;
+	height:100px;
+	color: #003;
+	font-family: Harrington;
+	font-weight:bold;
+	font-size:60px;
+	position:fixed;
+	text-align:center;
+	background-color: #CCC;
+	width: 1100px;
+	margin-left: 380px;
+	margin-top: 50px;
+	border-radius: 25px;
+	opacity: 0.6;
+}
+footer {
+	width:100%;
+	padding:5px;
+	height:20px;
+	background-color: #ddd;
+	color: #000;
+	font-family: Calibri, Helvetica, Arial, sans-serif;
+	font-size:15px;
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	text-align:center;
+	z-index:1;
+}
+main {
+	width:100%;
+	padding:50px;
+	font-family: Pericles;
+	text-align:center;
+	font-size: 14px;
+	height: 1000px;
+	background-image:url(images/Abstract%20Street%20At%20Stylised%20Favourite%20Desktop%20Backgrounds.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;	
+}
+.big {
+	font-size:40px;
+	color: #006;
+	margin-top: 300px;
+	background-color: #CCC;
+	background:centre;
+	border:groove;
+	width: 400px;
+	margin-left: 675px;
+	border-radius: 35px;
+	opacity: 0.8;
+}
+#messages {
+	float:right;
+	margin-top:150px;
+	margin-left:100px;
+	font-family:Harrington;
+	font-style:oblique;
+	font-weight:bold;
+	font-size:54px;
+	text-emphasis:circle;
+	color:#CFF;
+	width: 400px;
+	height:100px;	
+}
+#loading {
+	display:none;
+	position:fixed;
+	top:50%;
+	left:50%;
+	margin-top:-200px;
+	margin-left: 125px;
+}
+.reg {
+	background-color:#CCC;	
+	border:double;
+	border-radius: 25px;
+	width: 500px;
+	margin-left:630px;
+	margin-top: 25px;
+	opacity: 0.9;
+}
+form {
+	height: 100px;
+    margin-top: 150px;
+}
+form input {
+	height:30px;
+	margin:5px;
+	padding:2px;
+    margin-top: 50px;
+}
+.log {
+	background-color:#CCC;
+	font-family:"Times New Roman", Times, serif;
+	font-size: 32px;
+	width:500px;
+	height:40px;
+	border-radius: 35px;
+	opacity: 0.9;
+	margin-left: 625px;
+	color: #006;
+	margin-top:180px;
+		
+}
+
+/* end of login page */
+/* subsciptions page */
+body {
+	margin-bottom:40px;
+	width: 1800px;
+	height:900px;
+}
+header {
+	padding:5px;
+	height:100px;
+	color: #003;
+	font-family: Harrington;
+	font-weight:bold;
+	font-size:60px;
+	position:fixed;
+	text-align:center;
+	background-color: #CCC;
+	width: 1100px;
+	margin-left: 380px;
+	margin-top: 50px;
+	border-radius: 25px;
+	opacity: 0.6;
+}
+#messages {
+	float:right;
+	margin-top:150px;
+	margin-left:100px;
+	font-family:Harrington;
+	font-style:oblique;
+	font-weight:bold;
+	font-size:54px;
+	text-emphasis:circle;
+	color:#CFF;
+	width: 400px;
+	height:100px;	
+}
+#loading {
+	display:none;
+	position:fixed;
+	top:50%;
+	left:50%;
+	margin-top:-200px;
+	margin-left: 125px;
+}
+footer {
+	width:100%;
+	padding:5px;
+	height:20px;
+	background-color: #ddd;
+	color: #000;
+	font-family: Calibri, Helvetica, Arial, sans-serif;
+	font-size:15px;
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	text-align:center;
+	z-index:1;
+}
+main {
+	width:100%;
+	padding:50px;
+	font-family: Pericles;
+	text-align:center;
+	font-size: 14px;
+	height: 2000px;
+	background-image:url(images/Abstract%20Street%20At%20Stylised%20Favourite%20Desktop%20Backgrounds.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;	
+}
+.subrow {
+	width: 45%;
+	background-color:#efefef;
+	font-size:45px;
+	
+	border-radius:45px;
+	margin-left:480px;
+}
+.subrow .sublinkbar {
+	font-size:15px;
+	padding:5px;
+}
+.rssitem {
+	width: 45%;
+	margin:0 auto;
+	background-color:#efefef;
+	border-bottom:1px #ccc solid;
+	font-size:20px;
+	min-height:100px;
+	margin-top:100px;
+}
+.rsstitle {
+	margin-top:150px;
+	color:#000;
+	font-weight:bolder;
+	background-color:#efefef;
+	border-radius:45px;
+	margin-left:100px;
+}
+#subcontent {
+	height:500px;
+	margin-top:200px;
+}
+
+/* end of subscriptions page */
+/* comments page */
+
+#messages {
+	float:right;
+	margin-top:150px;
+	margin-left:100px;
+	font-family:Harrington;
+	font-style:oblique;
+	font-weight:bold;
+	font-size:54px;
+	text-emphasis:circle;
+	color:#CFF;
+	width: 400px;
+	height:100px;	
+}
+#loading {
+	display:none;
+	position:fixed;
+	top:50%;
+	left:50%;
+	margin-top:-200px;
+	margin-left: 125px;
+}
+/*  comments page title bar*/
+#commentscontainer {
+	width:100%;
+	padding:5px;
+	height:460px;
+	background-image:url(images/Abstract%20Street%20At%20Stylised%20Favourite%20Desktop%20Backgrounds.jpg);
+	color: #fff;
+	font-family: Calibri, Helvetica, Arial, sans-serif;
+	font-size:15px;
+	position:fixed;
+	bottom:-400px;
+	left:0px;
+	text-align:center;
+	z-index:0;
+}
+/* text insert box on comments page */
+#commentbox {
+	width:80%;
+	position:relative;
+	bottom:0;
+	height:50px;
+	padding: 5px;
+}
+/* end of text insert box on comments page */
+/* comment and clear comment buttons on comments page */
+#commentbtn {
+	width:10%;
+	position:relative;
+	bottom:35px;
+}
+#clearbtn {
+	width:10%;
+	position:relative;
+	bottom:25px;
+	left:40.5%;
+}
+/* end of comment and clear comment buttons on comments page */
+/* panel in comments page */
+#comcontent {
+	background-color:#919191;
+	width:90%;
+	height:300px;
+	margin:20px auto;
+	color:#000;
+	overflow: scroll;
+}
+/* end of panel in comments page */
+/* comments section in comments page */
+.comment {
+	background-color:#eef;
+	width:90%;
+	margin:0 auto;
+	padding:5px;
+	border-bottom:1px #ccc solid;
+}
+/* end of comments section in comments page */
+/* date section on comments page */
+.comdate {
+	font-style: italic;
+	font-size:80%;
+	width:90%;
+	margin:0 auto;
+	padding:0 5px;
+	background-color:#dde;
+}
+/* end of date section on comments page */
+/* edit or delete section on comments page */
+.comlinks {
+	font-size:90%;
+	width:90%;
+	margin:0 auto;
+	padding:0 5px;
+	background-color:#999;
+}
+/* end of edit or delete section on comments page */
+/* end of comments page */
+}
+/* Media Query for Tablets */
+@media only screen and (min-width : 481px) and (max-width : 1024px) {
+	/* index page */
+.intro {
+	margin-top:250px;
+	color:#006;
+	font-size:36px;
+	margin-left:250px;
+	background-color: #CCC;
+	background:centre;
+	border-radius: 35px;
+	opacity: 0.8;
+	border:groove;
+	width: 1000px;
+	height:100px;
+	
+}
+.big2 {
+	font-size:40px;
+	margin:10px;
+	color: #006;
+	margin-top: 120px;
+	background-color: #CCC;
+	background:centre;
+	background-clip:border-box;
+	border:groove;
+	width: 700px;
+	height:200px;
+	margin-left: 600px;
+	border-radius: 35px;
+	opacity: 0.8;
+}
+.globe {
+	float:left;
+	margin-bottom:900px;
+	opacity:0.8;
+}
+.weather {
+	float:right;
+}
+footer1 {
+	width:100%;
+	padding:5px;
+	height:30px;
+	background-color: #ddd;
+	color: #000;
+	font-family: Calibri, Helvetica, Arial, sans-serif;
+	font-size:15px;
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	text-align:center;
+	z-index:1;
+}
+body {
+	margin-bottom:40px;
+	width: 1800px;
+	height:900px;
+}
+header {
+	padding:5px;
+	height:100px;
+	color: #003;
+	font-family: Harrington;
+	font-weight:bold;
+	font-size:60px;
+	position:fixed;
+	text-align:center;
+	background-color: #CCC;
+	width: 1100px;
+	margin-left: 380px;
+	margin-top: 50px;
+	border-radius: 25px;
+	opacity: 0.6;
+}
+footer {
+	width:100%;
+	padding:5px;
+	height:20px;
+	background-color: #ddd;
+	color: #000;
+	font-family: Calibri, Helvetica, Arial, sans-serif;
+	font-size:15px;
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	text-align:center;
+	z-index:1;
+}
+main {
+	width:100%;
+	padding:50px;
+	font-family: Pericles;
+	text-align:center;
+	font-size: 14px;
+	height: 1000px;
+	background-image:url(images/Abstract%20Street%20At%20Stylised%20Favourite%20Desktop%20Backgrounds.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+/* end of index page */
+/* register page */
+body {
+	margin-bottom:40px;
+	width: 1800px;
+	height:900px;
+}
+header {
+	padding:5px;
+	height:100px;
+	color: #003;
+	font-family: Harrington;
+	font-weight:bold;
+	font-size:60px;
+	position:fixed;
+	text-align:center;
+	background-color: #CCC;
+	width: 1100px;
+	margin-left: 380px;
+	margin-top: 50px;
+	border-radius: 25px;
+	opacity: 0.6;
+}
+footer {
+	width:100%;
+	padding:5px;
+	height:20px;
+	background-color: #ddd;
+	color: #000;
+	font-family: Calibri, Helvetica, Arial, sans-serif;
+	font-size:15px;
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	text-align:center;
+	z-index:1;
+}
+main {
+	width:100%;
+	padding:50px;
+	font-family: Pericles;
+	text-align:center;
+	font-size: 14px;
+	height: 1000px;
+	background-image:url(images/Abstract%20Street%20At%20Stylised%20Favourite%20Desktop%20Backgrounds.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;	
+}
+.big1 {
+	font-size:40px;
+	margin:10px;
+	color: #006;
+	margin-top: 5px;
+	background-color: #CCC;
+	background:centre;
+	border:groove;
+	width: 550px;
+	margin-left: 600px;
+	border-radius: 35px;
+	opacity: 0.9;
+}
+.reg1 {
+	background-color:#CCC;
+	border:double;
+	border-radius: 25px;
+	width: 500px;
+	margin-left:630px;
+	margin-top: 50px;
+	height:500px;
+	opacity: 0.9;
+}
+.regis {
+	background-color:#CCC;
+	font-family:"Times New Roman", Times, serif;
+	font-size: 32px;
+	width:500px;
+	height:40px;
+	border-radius: 35px;
+	opacity: 0.9;
+	margin-left: 625px;
+	color: #006;
+	margin-top:50px;
+}
+.form {
+	height: 100px;
+    margin-top: 150px;
+}
+#messages {
+	float:right;
+	margin-top:150px;
+	margin-left:100px;
+	font-family:Harrington;
+	font-style:oblique;
+	font-weight:bold;
+	font-size:54px;
+	text-emphasis:circle;
+	color:#CFF;
+	width: 400px;
+	height:100px;	
+}
+
+#loading {
+	display:none;
+	position:fixed;
+	top:50%;
+	left:50%;
+	margin-top:-200px;
+	margin-left: 125px;
+}
+/* end of register page */
+/*  login page */
+body {
+	margin-bottom:40px;
+	width: 1800px;
+	height:900px;
+}
+header {
+	padding:5px;
+	height:100px;
+	color: #003;
+	font-family: Harrington;
+	font-weight:bold;
+	font-size:60px;
+	position:fixed;
+	text-align:center;
+	background-color: #CCC;
+	width: 1100px;
+	margin-left: 380px;
+	margin-top: 50px;
+	border-radius: 25px;
+	opacity: 0.6;
+}
+footer {
+	width:100%;
+	padding:5px;
+	height:20px;
+	background-color: #ddd;
+	color: #000;
+	font-family: Calibri, Helvetica, Arial, sans-serif;
+	font-size:15px;
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	text-align:center;
+	z-index:1;
+}
+main {
+	width:100%;
+	padding:50px;
+	font-family: Pericles;
+	text-align:center;
+	font-size: 14px;
+	height: 1000px;
+	background-image:url(images/Abstract%20Street%20At%20Stylised%20Favourite%20Desktop%20Backgrounds.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;	
+}
+.big {
+	font-size:40px;
+	color: #006;
+	margin-top: 300px;
+	background-color: #CCC;
+	background:centre;
+	border:groove;
+	width: 400px;
+	margin-left: 675px;
+	border-radius: 35px;
+	opacity: 0.8;
+}
+#messages {
+	float:right;
+	margin-top:150px;
+	margin-left:100px;
+	font-family:Harrington;
+	font-style:oblique;
+	font-weight:bold;
+	font-size:54px;
+	text-emphasis:circle;
+	color:#CFF;
+	width: 400px;
+	height:100px;	
+}
+#loading {
+	display:none;
+	position:fixed;
+	top:50%;
+	left:50%;
+	margin-top:-200px;
+	margin-left: 125px;
+}
+.reg {
+	background-color:#CCC;	
+	border:double;
+	border-radius: 25px;
+	width: 500px;
+	margin-left:630px;
+	margin-top: 25px;
+	opacity: 0.9;
+}
+form {
+	height: 100px;
+    margin-top: 150px;
+}
+form input {
+	height:30px;
+	margin:5px;
+	padding:2px;
+    margin-top: 50px;
+}
+.log {
+	background-color:#CCC;
+	font-family:"Times New Roman", Times, serif;
+	font-size: 32px;
+	width:500px;
+	height:40px;
+	border-radius: 35px;
+	opacity: 0.9;
+	margin-left: 625px;
+	color: #006;
+	margin-top:180px;
+	
+}
+
+/* end of login page */
+/* subsciptions page */
+body {
+	margin-bottom:40px;
+	width: 1800px;
+	height:900px;
+}
+header {
+	padding:5px;
+	height:100px;
+	color: #003;
+	font-family: Harrington;
+	font-weight:bold;
+	font-size:60px;
+	position:fixed;
+	text-align:center;
+	background-color: #CCC;
+	width: 1100px;
+	margin-left: 380px;
+	margin-top: 50px;
+	border-radius: 25px;
+	opacity: 0.6;
+}
+#messages {
+	float:right;
+	margin-top:150px;
+	margin-left:100px;
+	font-family:Harrington;
+	font-style:oblique;
+	font-weight:bold;
+	font-size:54px;
+	text-emphasis:circle;
+	color:#CFF;
+	width: 400px;
+	height:100px;	
+}
+#loading {
+	display:none;
+	position:fixed;
+	top:50%;
+	left:50%;
+	margin-top:-200px;
+	margin-left: 125px;
+}
+footer {
+	width:100%;
+	padding:5px;
+	height:20px;
+	background-color: #ddd;
+	color: #000;
+	font-family: Calibri, Helvetica, Arial, sans-serif;
+	font-size:15px;
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	text-align:center;
+	z-index:1;
+}
+main {
+	width:100%;
+	padding:50px;
+	font-family: Pericles;
+	text-align:center;
+	font-size: 14px;
+	height: 2000px;
+	background-image:url(images/Abstract%20Street%20At%20Stylised%20Favourite%20Desktop%20Backgrounds.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;	
+}
+.subrow {
+	width: 45%;
+	background-color:#efefef;
+	font-size:45px;
+	
+	border-radius:45px;
+	margin-left:480px;
+}
+.subrow .sublinkbar {
+	font-size:15px;
+	padding:5px;
+}
+.rssitem {
+	width: 45%;
+	margin:0 auto;
+	background-color:#efefef;
+	border-bottom:1px #ccc solid;
+	font-size:20px;
+	min-height:100px;
+	margin-top:100px;
+}
+.rsstitle {
+	margin-top:150px;
+	color:#000;
+	font-weight:bolder;
+	background-color:#efefef;
+	border-radius:45px;
+	margin-left:100px;
+}
+#subcontent {
+	height:500px;
+	margin-top:200px;
+}
+
+/* end of subscriptions page */
+/* comments page */
+
+#messages {
+	float:right;
+	margin-top:150px;
+	margin-left:100px;
+	font-family:Harrington;
+	font-style:oblique;
+	font-weight:bold;
+	font-size:54px;
+	text-emphasis:circle;
+	color:#CFF;
+	width: 400px;
+	height:100px;	
+}
+#loading {
+	display:none;
+	position:fixed;
+	top:50%;
+	left:50%;
+	margin-top:-200px;
+	margin-left: 125px;
+}
+/*  comments page title bar*/
+#commentscontainer {
+	width:100%;
+	padding:5px;
+	height:460px;
+	background-image:url(images/Abstract%20Street%20At%20Stylised%20Favourite%20Desktop%20Backgrounds.jpg);
+	color: #fff;
+	font-family: Calibri, Helvetica, Arial, sans-serif;
+	font-size:15px;
+	position:fixed;
+	bottom:-400px;
+	left:0px;
+	text-align:center;
+	z-index:0;
+}
+/* text insert box on comments page */
+#commentbox {
+	width:80%;
+	position:relative;
+	bottom:0;
+	height:50px;
+	padding: 5px;
+}
+/* end of text insert box on comments page */
+/* comment and clear comment buttons on comments page */
+#commentbtn {
+	width:10%;
+	position:relative;
+	bottom:35px;
+}
+#clearbtn {
+	width:10%;
+	position:relative;
+	bottom:25px;
+	left:40.5%;
+}
+/* end of comment and clear comment buttons on comments page */
+/* panel in comments page */
+#comcontent {
+	background-color:#919191;
+	width:90%;
+	height:300px;
+	margin:20px auto;
+	color:#000;
+	overflow: scroll;
+}
+/* end of panel in comments page */
+/* comments section in comments page */
+.comment {
+	background-color:#eef;
+	width:90%;
+	margin:0 auto;
+	padding:5px;
+	border-bottom:1px #ccc solid;
+}
+/* end of comments section in comments page */
+/* date section on comments page */
+.comdate {
+	font-style: italic;
+	font-size:80%;
+	width:90%;
+	margin:0 auto;
+	padding:0 5px;
+	background-color:#dde;
+}
+/* end of date section on comments page */
+/* edit or delete section on comments page */
+.comlinks {
+	font-size:90%;
+	width:90%;
+	margin:0 auto;
+	padding:0 5px;
+	background-color:#999;
+}
+/* end of edit or delete section on comments page */
+/* end of comments page */
+}
+/* Desktops and laptops  */
+@media only screen and (min-width:1025px) {
+	/* index page */
+.intro {
+	margin-top:250px;
+	color:#006;
+	font-size:36px;
+	margin-left:250px;
+	background-color: #CCC;
+	background:centre;
+	border-radius: 35px;
+	opacity: 0.8;
+	border:groove;
+	width: 1000px;
+	height:100px;
+	
+}
+.big2 {
+	font-size:40px;
+	margin:10px;
+	color: #006;
+	margin-top: 120px;
+	background-color: #CCC;
+	background:centre;
+	background-clip:border-box;
+	border:groove;
+	width: 700px;
+	height:200px;
+	margin-left: 600px;
+	border-radius: 35px;
+	opacity: 0.8;
+}
+.globe {
+	float:left;
+	margin-bottom:900px;
+	opacity:0.8;
+}
+.weather {
+	float:right;
+}
+footer1 {
+	width:100%;
+	padding:5px;
+	height:30px;
+	background-color: #ddd;
+	color: #000;
+	font-family: Calibri, Helvetica, Arial, sans-serif;
+	font-size:15px;
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	text-align:center;
+	z-index:1;
+}
+body {
+	margin-bottom:40px;
+	width: 1800px;
+	height:900px;
+}
+header {
+	padding:5px;
+	height:100px;
+	color: #003;
+	font-family: Harrington;
+	font-weight:bold;
+	font-size:60px;
+	position:fixed;
+	text-align:center;
+	background-color: #CCC;
+	width: 1100px;
+	margin-left: 380px;
+	margin-top: 50px;
+	border-radius: 25px;
+	opacity: 0.6;
+}
+footer {
+	width:100%;
+	padding:5px;
+	height:20px;
+	background-color: #ddd;
+	color: #000;
+	font-family: Calibri, Helvetica, Arial, sans-serif;
+	font-size:15px;
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	text-align:center;
+	z-index:1;
+}
+main {
+	width:100%;
+	padding:50px;
+	font-family: Pericles;
+	text-align:center;
+	font-size: 14px;
+	height: 1000px;
+	background-image:url(images/Abstract%20Street%20At%20Stylised%20Favourite%20Desktop%20Backgrounds.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+/* end of index page */
+/* register page */
+body {
+	margin-bottom:40px;
+	width: 1800px;
+	height:900px;
+}
+header {
+	padding:5px;
+	height:100px;
+	color: #003;
+	font-family: Harrington;
+	font-weight:bold;
+	font-size:60px;
+	position:fixed;
+	text-align:center;
+	background-color: #CCC;
+	width: 1100px;
+	margin-left: 380px;
+	margin-top: 50px;
+	border-radius: 25px;
+	opacity: 0.6;
+}
+footer {
+	width:100%;
+	padding:5px;
+	height:20px;
+	background-color: #ddd;
+	color: #000;
+	font-family: Calibri, Helvetica, Arial, sans-serif;
+	font-size:15px;
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	text-align:center;
+	z-index:1;
+}
+main {
+	width:100%;
+	padding:50px;
+	font-family: Pericles;
+	text-align:center;
+	font-size: 14px;
+	height: 1000px;
+	background-image:url(images/Abstract%20Street%20At%20Stylised%20Favourite%20Desktop%20Backgrounds.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;	
+}
+.big1 {
+	font-size:40px;
+	margin:10px;
+	color: #006;
+	margin-top: 5px;
+	background-color: #CCC;
+	background:centre;
+	border:groove;
+	width: 550px;
+	margin-left: 600px;
+	border-radius: 35px;
+	opacity: 0.9;
+}
+.reg1 {
+	background-color:#CCC;
+	border:double;
+	border-radius: 25px;
+	width: 500px;
+	margin-left:630px;
+	margin-top: 50px;
+	height:500px;
+	opacity: 0.9;
+}
+.regis {
+	background-color:#CCC;
+	font-family:"Times New Roman", Times, serif;
+	font-size: 32px;
+	width:500px;
+	height:40px;
+	border-radius: 35px;
+	opacity: 0.9;
+	margin-left: 625px;
+	color: #006;
+	margin-top:50px;
+}
+.form {
+	height: 100px;
+    margin-top: 150px;
+}
+#messages {
+	float:right;
+	margin-top:150px;
+	margin-left:100px;
+	font-family:Harrington;
+	font-style:oblique;
+	font-weight:bold;
+	font-size:54px;
+	text-emphasis:circle;
+	color:#CFF;
+	width: 400px;
+	height:100px;	
+}
+
+#loading {
+	display:none;
+	position:fixed;
+	top:50%;
+	left:50%;
+	margin-top:-200px;
+	margin-left: 125px;
+}
+/* end of register page */
+/*  login page */
+body {
+	margin-bottom:40px;
+	width: 1800px;
+	height:900px;
+}
+header {
+	padding:5px;
+	height:100px;
+	color: #003;
+	font-family: Harrington;
+	font-weight:bold;
+	font-size:60px;
+	position:fixed;
+	text-align:center;
+	background-color: #CCC;
+	width: 1100px;
+	margin-left: 380px;
+	margin-top: 50px;
+	border-radius: 25px;
+	opacity: 0.6;
+}
+footer {
+	width:100%;
+	padding:5px;
+	height:20px;
+	background-color: #ddd;
+	color: #000;
+	font-family: Calibri, Helvetica, Arial, sans-serif;
+	font-size:15px;
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	text-align:center;
+	z-index:1;
+}
+main {
+	width:100%;
+	padding:50px;
+	font-family: Pericles;
+	text-align:center;
+	font-size: 14px;
+	height: 1000px;
+	background-image:url(images/Abstract%20Street%20At%20Stylised%20Favourite%20Desktop%20Backgrounds.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;	
+}
+.big {
+	font-size:40px;
+	color: #006;
+	margin-top: 300px;
+	background-color: #CCC;
+	background:centre;
+	border:groove;
+	width: 400px;
+	margin-left: 675px;
+	border-radius: 35px;
+	opacity: 0.8;
+}
+#messages {
+	float:right;
+	margin-top:150px;
+	margin-left:100px;
+	font-family:Harrington;
+	font-style:oblique;
+	font-weight:bold;
+	font-size:54px;
+	text-emphasis:circle;
+	color:#CFF;
+	width: 400px;
+	height:100px;	
+}
+#loading {
+	display:none;
+	position:fixed;
+	top:50%;
+	left:50%;
+	margin-top:-200px;
+	margin-left: 125px;
+}
+.reg {
+	background-color:#CCC;	
+	border:double;
+	border-radius: 25px;
+	width: 500px;
+	margin-left:630px;
+	margin-top: 25px;
+	opacity: 0.9;
+}
+form {
+	height: 100px;
+    margin-top: 150px;
+}
+form input {
+	height:30px;
+	margin:5px;
+	padding:2px;
+    margin-top: 50px;
+}
+.log {
+	background-color:#CCC;
+	font-family:"Times New Roman", Times, serif;
+	font-size: 32px;
+	width:500px;
+	height:40px;
+	border-radius: 35px;
+	opacity: 0.9;
+	margin-left: 625px;
+	color: #006;
+	margin-top:180px;
+	
+}
+
+/* end of login page */
+/* subsciptions page */
+body {
+	margin-bottom:40px;
+	width: 1800px;
+	height:900px;
+}
+header {
+	padding:5px;
+	height:100px;
+	color: #003;
+	font-family: Harrington;
+	font-weight:bold;
+	font-size:60px;
+	position:fixed;
+	text-align:center;
+	background-color: #CCC;
+	width: 1100px;
+	margin-left: 380px;
+	margin-top: 50px;
+	border-radius: 25px;
+	opacity: 0.6;
+}
+#messages {
+	float:right;
+	margin-top:150px;
+	margin-left:100px;
+	font-family:Harrington;
+	font-style:oblique;
+	font-weight:bold;
+	font-size:54px;
+	text-emphasis:circle;
+	color:#CFF;
+	width: 400px;
+	height:100px;	
+}
+#loading {
+	display:none;
+	position:fixed;
+	top:50%;
+	left:50%;
+	margin-top:-200px;
+	margin-left: 125px;
+}
+footer {
+	width:100%;
+	padding:5px;
+	height:20px;
+	background-color: #ddd;
+	color: #000;
+	font-family: Calibri, Helvetica, Arial, sans-serif;
+	font-size:15px;
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	text-align:center;
+	z-index:1;
+}
+main {
+	width:100%;
+	padding:50px;
+	font-family: Pericles;
+	text-align:center;
+	font-size: 14px;
+	height: 2000px;
+	background-image:url(images/Abstract%20Street%20At%20Stylised%20Favourite%20Desktop%20Backgrounds.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;	
+}
+.subrow {
+	width: 45%;
+	background-color:#efefef;
+	font-size:45px;
+	
+	border-radius:45px;
+	margin-left:480px;
+}
+.subrow .sublinkbar {
+	font-size:15px;
+	padding:5px;
+}
+.rssitem {
+	width: 45%;
+	margin:0 auto;
+	background-color:#efefef;
+	border-bottom:1px #ccc solid;
+	font-size:20px;
+	min-height:100px;
+	margin-top:100px;
+}
+.rsstitle {
+	margin-top:150px;
+	color:#000;
+	font-weight:bolder;
+	background-color:#efefef;
+	border-radius:45px;
+	margin-left:100px;
+}
+#subcontent {
+	height:500px;
+	margin-top:200px;
+}
+
+/* end of subscriptions page */
+/* comments page */
+
+#messages {
+	float:right;
+	margin-top:150px;
+	margin-left:100px;
+	font-family:Harrington;
+	font-style:oblique;
+	font-weight:bold;
+	font-size:54px;
+	text-emphasis:circle;
+	color:#CFF;
+	width: 400px;
+	height:100px;	
+}
+#loading {
+	display:none;
+	position:fixed;
+	top:50%;
+	left:50%;
+	margin-top:-200px;
+	margin-left: 125px;
+}
+/*  comments page title bar*/
+#commentscontainer {
+	width:100%;
+	padding:5px;
+	height:460px;
+	background-image:url(images/Abstract%20Street%20At%20Stylised%20Favourite%20Desktop%20Backgrounds.jpg);
+	color: #fff;
+	font-family: Calibri, Helvetica, Arial, sans-serif;
+	font-size:15px;
+	position:fixed;
+	bottom:-400px;
+	left:0px;
+	text-align:center;
+	z-index:0;
+}
+/* text insert box on comments page */
+#commentbox {
+	width:80%;
+	position:relative;
+	bottom:0;
+	height:50px;
+	padding: 5px;
+}
+/* end of text insert box on comments page */
+/* comment and clear comment buttons on comments page */
+#commentbtn {
+	width:10%;
+	position:relative;
+	bottom:35px;
+}
+#clearbtn {
+	width:10%;
+	position:relative;
+	bottom:25px;
+	left:40.5%;
+}
+/* end of comment and clear comment buttons on comments page */
+/* panel in comments page */
+#comcontent {
+	background-color:#919191;
+	width:90%;
+	height:300px;
+	margin:20px auto;
+	color:#000;
+	overflow: scroll;
+}
+/* end of panel in comments page */
+/* comments section in comments page */
+.comment {
+	background-color:#eef;
+	width:90%;
+	margin:0 auto;
+	padding:5px;
+	border-bottom:1px #ccc solid;
+}
+/* end of comments section in comments page */
+/* date section on comments page */
+.comdate {
+	font-style: italic;
+	font-size:80%;
+	width:90%;
+	margin:0 auto;
+	padding:0 5px;
+	background-color:#dde;
+}
+/* end of date section on comments page */
+/* edit or delete section on comments page */
+.comlinks {
+	font-size:90%;
+	width:90%;
+	margin:0 auto;
+	padding:0 5px;
+	background-color:#999;
+}
+/* end of edit or delete section on comments page */
+/* end of comments page */
+}

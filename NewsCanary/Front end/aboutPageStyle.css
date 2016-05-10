@@ -1,0 +1,1047 @@
+@charset "utf-8";
+/* Global Styles */
+
+body {
+	margin-left: auto;
+	margin-right: auto;
+	width: 92%;
+	max-width: 960px;
+	padding-left: 2.275%;
+	padding-right: 2.275%;
+	background-image:url(../../NewsCanary%20Version%202/Front%20end/images/Abstract%20Street%20At%20Stylised%20Favourite%20Desktop%20Backgrounds.jpg);
+	background-repeat:no-repeat;
+	background-size:auto;
+	
+}
+main {
+	
+}
+
+/* Header */
+header {
+	text-align: center;
+	display: block;
+}
+header .profileLogo .logoPlaceholder {
+	background-color:#E10F13;
+	width: 350px;
+	text-align: center;
+	border-radius:45px;
+	height: 75px;
+}
+header .logoPlaceholder span {
+	width: 80px;
+	height: 22px;
+	font-family: 'Montserrat', sans-serif;
+	color: rgba(255,255,255,1.00);
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 53px;
+}
+
+#loading {
+	display:none;
+	position:fixed;
+	top:50%;
+	left:50%;
+	margin-top:-200px;
+	margin-left: 125px;
+}
+
+.form {
+	height: 100px;
+    margin-top: 150px;
+}
+form input {
+	height:30px;
+	margin:5px;
+	padding:2px;
+    margin-top: 8px;
+	margin-left:10px;
+}
+
+
+
+
+.stretch {
+	content: '';
+	display: inline-block;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+
+
+/* Media query for Mobile devices*/
+@media only screen and (min-width : 150px) and (max-width : 480px) {
+	hr {
+	background-color: rgba(208,207,207,1.00);
+	height: 1px;
+	width:300px;
+}
+	header .profileLogo .logoPlaceholder {
+	background-color:#E10F13;
+	width: 150px;
+	text-align: center;
+	border-radius:45px;
+	height: 75px;
+	display: inline-block;
+}
+header .logoPlaceholder span {
+	width: 80px;
+	height: 22px;
+	font-family: 'Montserrat', sans-serif;
+	color: rgba(255,255,255,1.00);
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 53px;
+}
+
+/* Header */
+header {
+	width: 100%;
+	float: none;
+}
+header .profilePhoto {
+	
+	border-radius: 20%;
+	
+	clear: both;
+	display: inline-block;
+}
+.globe {
+	margin-left:2px;
+	width:150px;
+	height: 150px;
+}
+header .profileHeader p {
+	font-family: boogaloo;
+	color:#2511AA;
+	font-size: 18px;
+	overflow-y: auto;
+	margin-top:100px;
+	background-color: #BEBEBE;
+	height: 200px;
+	width: 200px;
+	border-radius:15px;
+	margin-left:75px;
+	text-align:center;
+}
+header .profileHeader {
+	text-align: left;
+	margin-top: 7%;
+}
+header .profileHeader h3 {
+	font-family:boogaloo;
+	color:#2511AA;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 32px;
+	background-color:#BEBEBE;
+	border-radius:45px;
+	height:100px;
+	text-align: center;
+    padding:15px;
+	margin-top:5px;
+}
+header .profileHeader h4 {
+	font-family:boogaloo;
+	color:#2511AA;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 32px;
+	background-color:#BEBEBE;
+	border-radius:45px;
+	height:25px;
+	text-align: center;
+    padding:15px;
+	margin-top:5px;
+}
+header .profileHeader h5 {
+	font-family:boogaloo;
+	color:#2511AA;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 32px;
+	background-color:#BEBEBE;
+	border-radius:45px;
+	height:30px;
+	text-align: center;
+    padding:15px;
+	margin-top:5px;
+}
+header .profileHeader .reg1 {
+	background-color:#CCC;
+	border:double;
+	border-radius: 25px;
+	width: 250px;
+	margin-top: 500px;
+	height:280px;
+	opacity: 0.9;
+}
+header .profileHeader .reg {
+	background-color:#CCC;
+	border:double;
+	border-radius: 25px;
+	width: 300px;
+	margin-top: 5px;
+	height:200px;
+	opacity: 0.9;
+}
+
+
+header .profileHeader .big1 {
+	font-size:30px;
+	margin:10px;
+	color: #006;
+	margin-top: 5px;
+	background-color: #CCC;
+	background:centre;
+	border:groove;
+	width: 200px;
+	height:50px;
+	margin-left: 100px;
+	border-radius: 35px;
+	opacity: 0.9;
+}
+header .profileHeader .big1 a {
+	margin-left: 50px;
+	margin-top:50px;
+	
+}
+#messages {
+	
+	font-family:Harrington;
+	font-style:oblique;
+	font-weight:bold;
+	font-size:35px;
+	text-emphasis:circle;
+	color:#CFF;
+	width: 100px;
+	height:100px;
+	float:right;
+	margin-right:50px;	
+}
+#messages p {
+	width:150px;
+	font-size:18px;
+	margin-right:30px;
+
+	height:150px;
+}
+#subcontent {
+	height:500px;
+	margin-top:50px;
+}
+.subrow {
+	width:400px;
+	background-color:#CCC;
+	font-size:28px;
+	border-radius:25px;
+	margin-top:5px;
+	height:100px;
+}
+.subrow .sublinkbar {
+	font-size:15px;
+	
+}
+.rsslink {
+	width:200px;
+	background-color:#CCC;
+	font-size:28px;
+	border-radius:25px;
+	margin-left:80px;
+}
+.rssitem {
+	
+	margin:0 auto;
+	background-color:#efefef;
+	border-bottom:1px #ccc solid;
+	font-size:20px;
+	min-height:100px;
+	margin-top:100px;
+}
+.rsstitle {
+	font-size:20px;
+	color:#000;
+	font-weight:bolder;
+	background-color:#CCC;
+	border-radius:45px;
+	
+}
+#messages {
+	
+	font-family:Harrington;
+	font-style:oblique;
+	font-weight:bold;
+	font-size:26px;
+	text-emphasis:circle;
+	color:#F8F3F3;
+	width: 300px;
+	height:50px;
+	margin-left:50px;	
+}
+
+/* Index Page Footer */
+footer {
+	width:100%;
+	padding:5px;
+	height:70px;
+	background-color: #ddd;
+	color: #000;
+	font-family: Calibri, Helvetica, Arial, sans-serif;
+	font-size:16px;
+	margin-top:110px;
+	
+	
+}
+
+
+footer .footerNote {
+	float: right;
+	margin-right: 3%;
+	font-family: sans-serif;
+}
+
+footer .footerDisclaimer {
+	font-family: sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	color: rgba(104,103,103,1.00);
+	font-weight: 700;
+}
+footer .footerDisclaimer span {
+	color: rgba(181,178,178,1.00);
+	font-weight: 400;
+}
+footer .footerNote {
+	font-family: sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	color: rgba(104,103,103,1.00);
+	font-weight: 700;
+}
+footer .footerNote span {
+	color: rgba(181,178,178,1.00);
+	font-weight: 400;
+}
+/* registration Page Footer */
+footer1 {
+	width:100%;
+	padding:5px;
+	height:70px;
+	background-color: #ddd;
+	color: #000;
+	font-family: Calibri, Helvetica, Arial, sans-serif;
+	font-size:16px;
+	margin-top:110px;
+	
+	
+}
+
+
+footer1 .footerNote {
+	float: right;
+	margin-right: 3%;
+	font-family: sans-serif;
+}
+
+footer1 .footerDisclaimer {
+	font-family: sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	color: rgba(104,103,103,1.00);
+	font-weight: 700;
+	background-color: #ddd;
+	height:50px;
+}
+footer1 .footerDisclaimer span {
+	color: rgba(181,178,178,1.00);
+	font-weight: 400;
+}
+footer1 .footerNote {
+	font-family: sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	color: rgba(104,103,103,1.00);
+	font-weight: 700;
+}
+footer1 .footerNote span {
+	color: rgba(181,178,178,1.00);
+	font-weight: 400;
+}
+/*  comments page title bar*/
+#commentscontainer {
+	width:100%;
+	padding:5px;
+	height:460px;
+	background-image:url(../../NewsCanary%20Version%202/Front%20end/images/Abstract%20Street%20At%20Stylised%20Favourite%20Desktop%20Backgrounds.jpg);
+	color: #fff;
+	font-family: Calibri, Helvetica, Arial, sans-serif;
+	font-size:15px;
+	position:fixed;
+	bottom:-400px;
+	left:0px;
+	text-align:center;
+	z-index:0;
+}
+/* text insert box on comments page */
+#commentbox {
+	width:40%;
+	height:50px;
+	padding: 5px;
+}
+/* end of text insert box on comments page */
+/* comment and clear comment buttons on comments page */
+#commentbtn {
+	width:30%;
+	position:relative;
+	bottom:35px;
+}
+#clearbtn {
+	width:30%;
+	position:relative;
+	bottom:25px;
+	margin-left:210px;
+}
+/* end of comment and clear comment buttons on comments page */
+/* panel in comments page */
+#comcontent {
+	background-color:#919191;
+	width:90%;
+	height:300px;
+	margin:20px auto;
+	color:#000;
+	overflow: scroll;
+}
+/* end of panel in comments page */
+/* comments section in comments page */
+.comment {
+	background-color:#eef;
+	width:90%;
+	margin:0 auto;
+	padding:5px;
+	border-bottom:1px #ccc solid;
+}
+/* end of comments section in comments page */
+/* date section on comments page */
+.comdate {
+	font-style: italic;
+	font-size:80%;
+	width:90%;
+	margin:0 auto;
+	padding:0 5px;
+	background-color:#dde;
+}
+/* end of date section on comments page */
+/* edit or delete section on comments page */
+.comlinks {
+	font-size:90%;
+	width:90%;
+	margin:0 auto;
+	padding:0 5px;
+	background-color:#999;
+}
+/* end of edit or delete section on comments page */
+
+}
+
+/* Media Query for Tablets */
+@media only screen and (min-width : 481px) and (max-width : 1024px) {
+	hr {
+	background-color: rgba(208,207,207,1.00);
+	height: 1px;
+	width:700px;
+}
+/* Header */
+header .profilePhoto {
+	width:250px;
+	border-radius: 50%;
+	height: 250px;
+	clear: both;
+	float: left;
+	margin-right: 3%;
+	margin-top: 5%;
+}
+header {
+	width: 100%;
+	float: none;
+}
+header .profileLogo .logoPlaceholder {
+	
+	font-family: 'Montserrat', sans-serif;
+	width:300px;
+}
+
+header .profileHeader p {
+	font-family: boogaloo;
+	color:#2511AA;
+	font-size: 24px;
+	overflow-y: auto;
+	margin-top:5px;
+	background-color:#BEBEBE;
+	height: 300px;
+	width: 450px;
+	border-radius:25px;
+	margin-left:250px;
+}
+header .profileHeader h4 {
+	font-family:boogaloo;
+	color:#2511AA;
+	font-size: 28px;
+	font-weight: 700;
+	line-height: 32px;
+	background-color:#BEBEBE;
+	border-radius:45px;
+	height:50px;
+	text-align: left;
+    padding:25px;
+	width:650px;
+	
+}
+header .profileHeader {
+	text-align: center;
+	margin-top: 7%;
+}
+header .profileHeader h3 {
+	font-family:boogaloo;
+	color:#2511AA;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 32px;
+	background-color:#BEBEBE;
+	border-radius:45px;
+	height:100px;
+	text-align: center;
+    padding:25px;
+	
+}
+header .profileHeader .reg1 {
+	background-color:#CCC;
+	border:double;
+	border-radius: 25px;
+	width: 400px;
+	margin-top: 110px;
+	height:300px;
+	opacity: 0.9;
+	margin-left:250px;
+}
+header .profileHeader .reg {
+	background-color:#CCC;
+	border:double;
+	border-radius: 25px;
+	width: 400px;
+	margin-top: 110px;
+	height:200px;
+	opacity: 0.9;
+}
+
+header .profileHeader .big1 {
+	font-size:30px;
+	margin:10px;
+	color: #006;
+	margin-top: 5px;
+	background-color: #CCC;
+	background:centre;
+	border:groove;
+	width: 300px;
+	height:100px;
+	margin-left: 320px;
+	border-radius: 35px;
+	opacity: 0.9;
+}
+header .profileHeader .big1 a {
+	margin-left: 25px;
+}
+#messages {
+	
+	font-family:Harrington;
+	font-style:oblique;
+	font-weight:bold;
+	font-size:35px;
+	text-emphasis:circle;
+	color:#CFF;
+	width: 100px;
+	height:100px;
+	float:right;
+	margin-right:50px;	
+}
+#messages p {
+	width:150px;
+	font-size:18px;
+	margin-right:30px;
+	float:right;
+	height:150px;
+}
+
+#subcontent {
+	height:500px;
+	margin-top:200px;
+}
+.subrow {
+	width:400px;
+	background-color:#CCC;
+	font-size:45px;
+	border-radius:45px;
+	margin-left:250px;
+	
+}
+.subrow .sublinkbar {
+	font-size:15px;
+	padding:5px;
+}
+.rsslink {
+	width:200px;
+	background-color:#CCC;
+	font-size:45px;
+	border-radius:45px;
+	margin-left:80px;
+}
+.rssitem {
+	
+	margin:0 auto;
+	background-color:#efefef;
+	border-bottom:1px #ccc solid;
+	font-size:20px;
+	min-height:100px;
+	margin-top:100px;
+}
+.rsstitle {
+	font-size:60px;
+	color:#000;
+	font-weight:bolder;
+	background-color:#CCC;
+	border-radius:45px;
+	
+}
+/* Footer */
+footer {
+	width:100%;
+	padding:5px;
+	height:60px;
+	background-color: #ddd;
+	color: #000;
+	font-family: Calibri, Helvetica, Arial, sans-serif;
+	font-size:15px;
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	text-align:center;
+	z-index:1;
+}
+footer .footerDisclaimer {
+	
+	font-family: sans-serif;
+}
+footer .footerNote {
+	float: right;
+	margin-right: 3%;
+	font-family: sans-serif;
+}
+
+
+footer .footerNote {
+	float: right;
+	margin-right: 3%;
+	font-family: sans-serif;
+}
+
+footer .footerDisclaimer {
+	font-family: sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	color: rgba(104,103,103,1.00);
+	font-weight: 700;
+}
+footer .footerDisclaimer span {
+	color: rgba(181,178,178,1.00);
+	font-weight: 400;
+}
+footer .footerNote {
+	font-family: sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	color: rgba(104,103,103,1.00);
+	font-weight: 700;
+}
+footer .footerNote span {
+	color: rgba(181,178,178,1.00);
+	font-weight: 400;
+}
+
+/*  comments page title bar*/
+#commentscontainer {
+	width:100%;
+	padding:5px;
+	height:460px;
+	background-image:url(../../NewsCanary%20Version%202/Front%20end/images/Abstract%20Street%20At%20Stylised%20Favourite%20Desktop%20Backgrounds.jpg);
+	color: #fff;
+	font-family: Calibri, Helvetica, Arial, sans-serif;
+	font-size:15px;
+	position:fixed;
+	bottom:-400px;
+	left:0px;
+	text-align:center;
+	z-index:0;
+}
+/* text insert box on comments page */
+#commentbox {
+	width:80%;
+	position:relative;
+	bottom:0;
+	height:50px;
+	padding: 5px;
+}
+/* end of text insert box on comments page */
+/* comment and clear comment buttons on comments page */
+#commentbtn {
+	width:10%;
+	position:relative;
+	bottom:35px;
+}
+#clearbtn {
+	width:10%;
+	position:relative;
+	bottom:25px;
+	left:40.5%;
+}
+/* end of comment and clear comment buttons on comments page */
+/* panel in comments page */
+#comcontent {
+	background-color:#919191;
+	width:90%;
+	height:300px;
+	margin:20px auto;
+	color:#000;
+	overflow: scroll;
+}
+/* end of panel in comments page */
+/* comments section in comments page */
+.comment {
+	background-color:#eef;
+	width:90%;
+	margin:0 auto;
+	padding:5px;
+	border-bottom:1px #ccc solid;
+}
+/* end of comments section in comments page */
+/* date section on comments page */
+.comdate {
+	font-style: italic;
+	font-size:80%;
+	width:90%;
+	margin:0 auto;
+	padding:0 5px;
+	background-color:#dde;
+}
+/* end of date section on comments page */
+/* edit or delete section on comments page */
+.comlinks {
+	font-size:90%;
+	width:90%;
+	margin:0 auto;
+	padding:0 5px;
+	background-color:#999;
+}
+/* end of edit or delete section on comments page */
+}
+
+/* Desktops and laptops  */
+@media only screen and (min-width:1025px) {
+	hr {
+	background-color: rgba(208,207,207,1.00);
+	height: 1px;
+	width:900px;
+}
+/* Header */
+header .profilePhoto {
+	width:250px;
+	border-radius: 50%;
+	height: 250px;
+	clear: both;
+	float: left;
+	margin-right: 3%;
+}
+header .profileLogo .logoPlaceholder {
+	float: left;
+	margin-bottom: 50px;
+}
+
+
+header .profileHeader {
+	text-align: center;
+	padding-top: 10%;
+	
+}
+header .profileHeader h1 {
+	font-family: 'Montserrat', sans-serif;
+	color: rgba(146,146,146,1.00);
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 24px;
+}
+header .profileHeader h3 {
+	font-family:boogaloo;
+	color:#2511AA;
+	font-size: 28px;
+	font-weight: 700;
+	line-height: 32px;
+	background-color:#BEBEBE;
+	border-radius:45px;
+	height:100px;
+	text-align: center;
+    padding:25px;
+	
+}
+header .profileHeader h4 {
+	font-family:boogaloo;
+	color:#2511AA;
+	font-size: 28px;
+	font-weight: 700;
+	line-height: 32px;
+	background-color:#BEBEBE;
+	border-radius:45px;
+	height:50px;
+	text-align: left;
+    padding:25px;
+	width:700px;
+	
+}
+header .profileHeader .reg1 {
+	background-color:#CCC;
+	border:double;
+	border-radius: 25px;
+	width: 400px;
+	margin-top: 110px;
+	height:300px;
+	opacity: 0.9;
+}
+header .profileHeader .reg {
+	background-color:#CCC;
+	border:double;
+	border-radius: 25px;
+	width: 400px;
+	margin-top: 110px;
+	height:200px;
+	opacity: 0.9;
+}
+
+header .profileHeader .big1 {
+	font-size:30px;
+	margin:20px;
+	color: #006;
+	margin-top: 5px;
+	background-color: #CCC;
+	background:centre;
+	border:groove;
+	width: 300px;
+	height:100px;
+	margin-left: 335px;
+	border-radius: 35px;
+	opacity: 0.9;
+}
+header .profileHeader p {
+	font-family: boogaloo;
+	color:#2511AA;
+	font-size: 24px;
+	overflow-y: auto;
+	margin-top:100px;
+	background-color: #BEBEBE;
+	height: 400px;
+	width: 450px;
+	border-radius:25px;
+	margin-left:250px;
+}
+header .profileHeader .big1 a {
+	margin-left: 30px;
+	margin:15px;
+	
+	
+}
+/* subscription page */
+#subcontent {
+	height:500px;
+	margin-top:200px;
+}
+.subrow {
+	width:400px;
+	background-color:#CCC;
+	font-size:45px;
+	border-radius:45px;
+	margin-left:250px;
+	
+}
+.subrow .sublinkbar {
+	font-size:15px;
+	padding:5px;
+}
+rssitem {
+    width: 45%;
+    margin: 0 auto;
+    background-color: #efefef;
+    border-bottom: 1px #ccc solid;
+    font-size: 20px;
+    min-height: 100px;
+    margin-top: 100px;
+}
+.rsslink {
+	width:200px;
+	background-color:#CCC;
+	font-size:45px;
+	border-radius:45px;
+	margin-left:80px;
+}
+.rssitem {
+	
+	margin:0 auto;
+	background-color:#efefef;
+	border-bottom:1px #ccc solid;
+	font-size:20px;
+	min-height:100px;
+	margin-top:100px;
+}
+.rsstitle {
+	font-size:60px;
+	color:#000;
+	font-weight:bolder;
+	background-color:#CCC;
+	border-radius:45px;
+	
+}
+#messages {
+	
+	font-family:Harrington;
+	font-style:oblique;
+	font-weight:bold;
+	font-size:45px;
+	text-emphasis:circle;
+	color:#CFF;
+	width: 250px;
+	height:100px;
+	float:right;	
+}
+
+
+/* Footer */
+footer {
+	width:100%;
+	padding:5px;
+	height:60px;
+	background-color: #ddd;
+	color: #000;
+	font-family: Calibri, Helvetica, Arial, sans-serif;
+	font-size:15px;
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	text-align:center;
+	z-index:1;
+}
+
+footer .footerNote {
+	float: right;
+	margin-right: 3%;
+	font-family: sans-serif;
+}
+
+footer .footerDisclaimer {
+	font-family: sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	color: rgba(104,103,103,1.00);
+	font-weight: 700;
+	float: left;
+	margin-left: 3%;
+}
+footer .footerDisclaimer span {
+	color: rgba(181,178,178,1.00);
+	font-weight: 400;
+}
+footer .footerNote {
+	font-family: sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	color: rgba(104,103,103,1.00);
+	font-weight: 700;
+}
+footer .footerNote span {
+	color: rgba(181,178,178,1.00);
+	font-weight: 400;
+}
+
+/*  comments page title bar*/
+#commentscontainer {
+	width:100%;
+	padding:5px;
+	height:460px;
+	background-image:url(../../NewsCanary%20Version%202/Front%20end/images/Abstract%20Street%20At%20Stylised%20Favourite%20Desktop%20Backgrounds.jpg);
+	color: #fff;
+	font-family: Calibri, Helvetica, Arial, sans-serif;
+	font-size:15px;
+	position:fixed;
+	bottom:-400px;
+	left:0px;
+	text-align:center;
+	z-index:0;
+}
+/* text insert box on comments page */
+#commentbox {
+	width:80%;
+	position:relative;
+	bottom:0;
+	height:50px;
+	padding: 5px;
+}
+/* end of text insert box on comments page */
+/* comment and clear comment buttons on comments page */
+#commentbtn {
+	width:10%;
+	position:relative;
+	bottom:35px;
+}
+#clearbtn {
+	width:10%;
+	position:relative;
+	bottom:25px;
+	left:40.5%;
+}
+/* end of comment and clear comment buttons on comments page */
+/* panel in comments page */
+#comcontent {
+	background-color:#919191;
+	width:90%;
+	height:300px;
+	margin:20px auto;
+	color:#000;
+	overflow: scroll;
+}
+/* end of panel in comments page */
+/* comments section in comments page */
+.comment {
+	background-color:#eef;
+	width:90%;
+	margin:0 auto;
+	padding:5px;
+	border-bottom:1px #ccc solid;
+}
+/* end of comments section in comments page */
+/* date section on comments page */
+.comdate {
+	font-style: italic;
+	font-size:80%;
+	width:90%;
+	margin:0 auto;
+	padding:0 5px;
+	background-color:#dde;
+}
+/* end of date section on comments page */
+/* edit or delete section on comments page */
+.comlinks {
+	font-size:90%;
+	width:90%;
+	margin:0 auto;
+	padding:0 5px;
+	background-color:#999;
+}
+/* end of edit or delete section on comments page */
+}
